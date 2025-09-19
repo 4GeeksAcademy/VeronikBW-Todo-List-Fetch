@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+.titulo {
+    font-size: 6rem;
+    font-weight: 300;
+    font-stretch: 60%;
+    color: rgba(255, 0, 0, 0.13);
+}
+
+.letters {
+    font-size: 2rem;
+    color: grey;
+}
+
+.hojita {
+    box-shadow: -1px 16px 400px -78px rgba(0,0,0,0.5);
+}
+
+.delete-btn{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+.taskToDo:hover .delete-btn{
+    opacity: 0.3;
+}
+
+.delete-btn:hover {
+    opacity: 1;
+}
+
+.no-focus:focus {
+    outline: none ;
+    box-shadow: none;
+    border: none;
+}
+
+.decoration {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
